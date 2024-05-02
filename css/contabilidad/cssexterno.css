@@ -1,0 +1,25 @@
+/*selector {
+    declaracion1;
+    declaracion2 estructura(propiedad:valor);
+    .
+    declaracionn;
+}*/
+
+h1{
+    color: rgb(70, 45, 94);
+    background: burlywood;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.clasemedia{
+    color: brown;
+    background-color:#FFFFE0;
+}
+.clasealta{
+    color: black;
+    background-color: antiquewhite;
+}
+.clasehora{
+    color: #000;
+    background-color: coral;
+}
