@@ -22,9 +22,9 @@ font-size: 16px;
 
 .menu{
 
-background:#886565 ;
+background:#728a76 ;
 padding: 5px 15px;
-text-align: left;
+/*text-align: left;*/
 
 }
 
@@ -49,4 +49,58 @@ li{
 body{
     text-align: center;
     background-color: gray;
+}
+
+.agrupar{
+    border: 1px solid black;
+    background-color: #819a85;
+    width: 900px;
+    margin: 20px auto;
+
+}
+
+.cabecera{
+
+background-color: #94b098;
+border: 1px solid #999999;
+padding: 20px;
+
+}
+.seccion{
+
+    width: 450px;
+    margin: 10px;
+    float: left;
+
+}
+
+#idarticulo1, #idarticulo2{
+    background-color: #5c6e5f;
+    border: 1px solid #999;
+    padding: 20px;
+}
+
+article footer {
+    text-align: right;
+}
+.referencias {
+    width: 200px;
+    float: right;
+    margin:0px 90px;
+    padding-left: 2px;
+}
+.pie{
+    clear: both;
+}
+blockquote {
+    border: 2px solid black;
+    padding:  10px;
+    background-color: #5c6e5f;
+    width:  150px;
+}
+
+img{
+    width: 250px;
+    margin: auto auto;
+    height: 250px;
 }

@@ -11,8 +11,10 @@
 </head>
 
 <body>
-    <header>
-        <h1>Mi Blog</h1>
+    <div class="agrupar">
+    <header class="cabecera">
+        <h1>Facultad de Ciencias Fisicas y Matematicas</h1>
+        <h4>MI BLOG</h4>
     </header>
     <nav class="menu">
         <ul>
@@ -21,13 +23,9 @@
             <li>Contacto</li>
         </ul>
     </nav>
-    <ul>
-        <li>Principal</li>
-        <li>Ayuda</li>
-        <li>Contacto</li>
-    </ul>
-    <section>
-        <article>
+ 
+    <section class="seccion">
+        <article id="idarticulo1">
             <time datetime="12-10-2018">
                 Publicado el 12-10-2018
             </time>
@@ -37,11 +35,12 @@
                 voluptates possimus perferendis exercitationem accusamus, libero repudiandae magnam nostrum blanditiis
                 asperiores laborum cum sed sunt doloribus vero corporis aliquam.
             </p>
+            <img src="/img/patricio.jpg" alt="No se pudo cargar">
             <footer>
                 <p>Comentarios {1}</p>
             </footer>
         </article>
-        <article>
+        <article id="idarticulo2">
 
             <time datetime="20-11-2008">
                 Publicado el 20-11-2008
@@ -51,13 +50,17 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ullam minima odio iste soluta illo et
                 voluptates possimus perferendis exercitationem accusamus, libero repudiandae magnam nostrum blanditiis
                 asperiores laborum cum sed sunt doloribus vero corporis aliquam.
-           asdasdasdasdadadasdasdasdasdasasdadadsasdasdadasdas
-            </p>
 
+            </p>
+            <img src="/img/marmota.jpg" alt="No se pudo cargar la imagen">
+
+            <footer>
+                <p>Comentarios {2}</p>
+            </footer>
         </article>
     </section>
-
-    <aside>
+    
+    <aside class="referencias">
 <blockquote cite="https://miblog2.com">
     Referencia a 2022
 </blockquote>
@@ -66,10 +69,10 @@
 </blockquote>
     </aside>
 
-    <footer>
+    <footer class="pie">
         Derechos Reservados UCE 2010-2018 --
     </footer>
 
 </body>
-
+</div>
 </html>
